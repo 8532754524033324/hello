@@ -1,15 +1,4 @@
 module.exports = {
-  apps: [
-    {
-      name: 'nextjs-app',
-      script: 'index.html', // 起動スクリプトを正しく指定
-      env: {
-        NODE_ENV: 'production',
-        PORT: 3000
-      }
-    }
-  ],
-
   deploy: {
     production: {
       user: 'yoshimon852',
