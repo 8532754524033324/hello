@@ -18,7 +18,7 @@ module.exports = {
       repo: 'https://github.com/8532754524033324/hello.git',
       path: '/var/www/html/hello',
       'pre-deploy-local': '',
-      'post-deploy': 'cd /var/www/html/hello/current && npm install && pm2 reload ecosystem.config.js --env production',
+      'post-deploy': 'pm2 reload ecosystem.config.js --env production',
       'pre-setup': ''
     }
   }
