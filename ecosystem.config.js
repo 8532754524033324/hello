@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: 'nextjs-app',
-      script: 'index.js', // 起動スクリプトを正しく指定
+      script: 'index.html', // 起動スクリプトを正しく指定
       env: {
         NODE_ENV: 'production',
         PORT: 3000
